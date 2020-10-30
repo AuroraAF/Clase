@@ -25,6 +25,10 @@ namespace ClaseVisualStudio
             System.Console.WriteLine(m);
 
             EjerciciosExamen.Cat("Hola", "Juan", "casa");
+
+            EjerciciosExamen.EsMenor(8, 7);
+
+            EjerciciosExamen.PrintSymbol(3);
         }
     }
 }
