@@ -17,7 +17,6 @@ namespace ClaseVisualStudio
             sol2 = Utils.IsEven(9);
 
             Ejercicios.Ejercicio1();
-            */
             int s = EjerciciosExamen.Add(1, 2);
             System.Console.WriteLine(s);
 
@@ -29,6 +28,14 @@ namespace ClaseVisualStudio
             EjerciciosExamen.EsMenor(8, 7);
 
             EjerciciosExamen.PrintSymbol(3);
+            EjerciciosExamen.PrintSymbol3(4);
+            EjerciciosExamen.PrintSymbol4(4);
+            EjerciciosExamen.PrintSymbol5(4);
+            EjerciciosExamen.PrintSymbol6(4);
+            EjerciciosExamen.Asterisco(4);
+            */
+
+
         }
     }
 }

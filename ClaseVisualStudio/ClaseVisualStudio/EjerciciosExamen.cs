@@ -1,9 +1,11 @@
 ﻿using System.IO;
+using System.Runtime.Serialization.Formatters;
 
 namespace ClaseVisualStudio
 {
     class EjerciciosExamen
     {
+        
         public static int Add(int a, int b)
         {
             int result;
@@ -151,6 +153,114 @@ namespace ClaseVisualStudio
                 }
             }
             
+        }
+        public static void PrintSymbol3(int n)
+        {
+            for (int f = 0; f < n; f++)
+            {
+                    for (int c = 0; c < n ; c++ )
+                    {
+                     System.Console.WriteLine("****");
+                    }
+            }
+            System.Console.WriteLine();
+        }
+        public static void PrintSymbol4(int n)
+        {
+            for(int f = 0; f < n; f++)
+            {
+                for (int c = 0; c < n; c++)
+                {
+                    if (f % 2 == 0)
+                    {
+                        System.Console.WriteLine("*");
+                    }
+                    else
+                    {
+                        System.Console.WriteLine("+");
+                    }
+                }
+                System.Console.WriteLine();
+               
+            }
+        }
+        public static void PrintSymbol5(int n)
+        {
+            for (int f = 0; f < n; f++)
+            {
+                for (int c = 0; c < n; c++)
+                {
+                    int suma = c + f;
+
+                    if (f % 2 == 0)
+                    {
+                        System.Console.WriteLine("*");
+                    }
+                    else
+                    {
+                        System.Console.WriteLine("+");
+                    }
+                }
+                System.Console.WriteLine();
+
+            } 
+           
+        }
+        public static void PrintSymbol6(int n)
+        {
+            for (int f = 0; f < n; f++)
+            {
+                for (int c = 0; c <= f ; c++)
+                {
+                    System.Console.WriteLine("*");
+                }
+                System.Console.WriteLine();
+            } 
+
+        }
+        public static void Asterisco(int n)
+        {
+            for (int f = 0; f < n; f++)
+            {
+                int nespacios = n - f - 1;
+                System.Console.Write(" ");
+            }
+          
+            for (int f = 0; f < n; f++)
+            {                
+                    int nasteriscos = f + 1;
+                    System.Console.Write("*");                
+
+            }
+        }
+        public static void PAsterisco(int n)
+        {
+            for(int f = 0; f < n; f++)
+            {
+                int espacio1 = n - f - 1;
+                int espacio2 = f * 2;
+
+            }
+            for (int f = 0; f < n; f++)
+            {
+                int espacio1;
+                System.Console.Write("-");
+            }
+            System.Console.Write("*");
+            for (int f = 0; f < n; f++)
+            {
+                int espacio2;
+                System.Console.Write("-");
+            }
+            System.Console.Write("*");
+        }
+        
+        public static void AstericoP (int n)
+        {
+            for (int f = 0; f < n; f++)
+            {
+                        
+            }
         }
 
 
